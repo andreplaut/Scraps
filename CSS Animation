@@ -1,0 +1,16 @@
+
+.second {
+  animation-duration: 5s;
+  animation-name: fade;
+  color: green;
+}
+
+@keyframes fade {
+  0% {
+    color: white;
+  }
+
+  100% {
+    color: green;
+  }
+}
